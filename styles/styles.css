@@ -78,3 +78,7 @@ nav span{
     gap: 10px;
     align-items: center;
 }
+
+.hero{
+    background: url(/assets/hero-bg.png);
+}
