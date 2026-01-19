@@ -21,6 +21,10 @@
     
 }
 
+.line{
+    display: none;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -50,6 +54,7 @@ nav span{
     gap: 32px;
 
 }
+
 
 .menu li{
     list-style: none;
@@ -156,12 +161,54 @@ nav span{
 
 
 @media screen and (max-width:576px) {
+    
+    
     .menu{
         display: none;
     }
     .top button{
         display: none;
     }
+
+    .navbar{
+        margin: 0 20px;
+    }
+
+    nav h1{
+        font-size: 2rem;
+    }
+
+    .line{
+        display: inline;
+    }
+
+    .hero{
+       
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+        
+    }
+
+    .hero-text p{
+        width: 400px;
+        
+    }
+
+    .graphic-container img{
+        width: 100%;
+    }
+
+    .mic{
+        left: 120px;
+    }
+
+    .new-tag {
+        right: 20px; 
+    }
+
+    
 
     
 }
