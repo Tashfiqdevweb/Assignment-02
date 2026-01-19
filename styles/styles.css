@@ -155,4 +155,13 @@ nav span{
 }    
 
 
+@media screen and (max-width:576px) {
+    .menu{
+        display: none;
+    }
+    .top button{
+        display: none;
+    }
 
+    
+}
