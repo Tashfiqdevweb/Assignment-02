@@ -178,7 +178,7 @@ nav span{
     margin-bottom: 16px;
 }
 
-.about-container p, .card p{
+.about-container p, .card p, .video-text p, .host-text p{
     line-height: 20px;
     opacity: 80%;
     font-size: 14px;
@@ -212,7 +212,7 @@ nav span{
     padding: 120px 200px;
 }
 
-.choose h1{
+.choose h1, .feature-container h1, .host h1{
     margin-bottom: 40px;
     font-size: 3rem;
 
@@ -258,10 +258,93 @@ nav span{
 
 
 
-.card h4{
+.card h4, .vid h3, .host-text h3{
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.featured{
+    background-color: #1A0B2E;
+    color: #FFFFFF;
+    padding: 120px 200px;
+}
+
+.feature-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.video-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+
+}
+
+.video-text{
+    padding: 24px;
+}
+
+.clock{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 12px;
+    color: #00FF88;
+}
+
+.vid {
+    padding: 0;
+}
+
+.video{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.host{
+    margin-top: 120px;
+}
+
+.hst ul{
+    list-style: none;
+
+}
+
+.host-text p{
+    margin-bottom: 16px;
+}
+
+.links ul{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+
+.links img{
+    width: 25px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 10px 0px;
+   
+}
+
+.lkd img{
+    width: 15px;
 }
 
 
